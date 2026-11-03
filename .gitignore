@@ -1,0 +1,30 @@
+# Ignore everything by default
+/*
+
+# Keep Git configuration
+!.gitignore
+
+# Data and annotated items
+!data/
+!data/**
+!items/
+!items/**
+
+# LLM conversation
+!llm_convo.txt
+
+# Jupyter notebook
+!persona_context_experiment_final_factorial.ipynb
+
+# Experiment figures only
+!output/
+output/*
+!output/factorial_fewshot_v1/
+output/factorial_fewshot_v1/*
+!output/factorial_fewshot_v1/figures/
+!output/factorial_fewshot_v1/figures/**
+
+# Ignore Python and Jupyter temporary files
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
